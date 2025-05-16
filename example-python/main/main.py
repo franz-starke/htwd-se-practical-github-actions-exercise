@@ -1,5 +1,4 @@
 from town import Town
-# Comment
 
 def main():
     t = Town("Dresden", 556780)
@@ -8,7 +7,6 @@ def main():
     t.residents = -1
     print(t.name)
     print(t.residents)
-
 
 if __name__ == "__main__":
     main()
