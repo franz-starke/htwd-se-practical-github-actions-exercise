@@ -1,5 +1,6 @@
 from town import Town
 
+
 def main():
     t = Town("Dresden", 556780)
     print(str(t))
