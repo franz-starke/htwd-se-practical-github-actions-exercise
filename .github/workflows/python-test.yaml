@@ -31,3 +31,7 @@ jobs:
       run: |
         cd example-python
         python3 -m unittest tests.test_town.TestTown
+
+    - name: Return python version
+      run: |
+        python3 --version
